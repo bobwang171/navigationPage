@@ -70,6 +70,7 @@ body{
     background: white;
     border-radius: 15px;
     cursor: pointer;
+    user-select: none
 
 
 }
