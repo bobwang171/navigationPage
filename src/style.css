@@ -136,3 +136,13 @@ body{
 .siteList .text{
     font-size: 16px;
     }
+@media(max-width:500px){
+    .siteList .site >.close{
+        position: absolute;
+        top: 0;
+        left:0;
+        font-size: 16px;
+        display: block;
+}
+
+}

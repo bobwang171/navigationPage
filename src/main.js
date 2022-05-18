@@ -73,3 +73,5 @@ $(document).on("keypress", (e) => {
       window.open(hashMap[i].url)
   }
 })
+
+
