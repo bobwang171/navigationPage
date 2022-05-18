@@ -14,9 +14,11 @@ const hashMap=xObject|| [
     { logo: "S",logoType:"image", url: "https://stackoverflow.com" }
 ];
 const removeX = (url) => {
-    return url.replace("http//", "")
-        .replace("https://", "")
-        .replace("www.", "").replace(/\/.*/, "")
+  return url
+  .replace("https://", "")
+  .replace("http://", "")
+  .replace("www.", "")
+  .replace(/\/.*/, ""); //删除/开头的内容
 }
 const render = () => {
     $siteList.find('li:not(.last)').remove()
